@@ -175,6 +175,8 @@ body {
   display: flex;
   flex-direction: row;
   background-color: #dfcdc3;
+  align-items: center;
+  justify-content: center;
 }
 
 .down-figure {
@@ -183,10 +185,11 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  height: 50%;
 }
 
 .down-figure img {
-  height: 60px;
+  height: 3em;
 }
 
 .down-p {
@@ -195,8 +198,7 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 100px;
-  width: 300px;
+  height: 50%;
 }
 
 .down-nav {
@@ -205,12 +207,18 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  height: 50%;
 }
 
 .down-nav ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
+}
+
+.down-nav img {
+  height: 2em;
+  margin-left: 1em;
 }
 
 .contact-button {
