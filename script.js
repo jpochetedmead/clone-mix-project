@@ -1,1 +1,1 @@
-alert("WE BUILD & DEPLOY BRANDS");
+alert("We Build & Deploy Brands");
