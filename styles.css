@@ -216,16 +216,19 @@ body {
   border: 1px solid black;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   height: 50%;
-  width: 10%;
+  width: 5%;
 }
 
 .down-figure img {
   display: flex;
   flex-direction: row;
-
+  align-items: center;
+  justify-content: center;
   height: 3em;
-  width: 2em;
+  width: 3em;
 }
 
 .down-p {
@@ -236,7 +239,7 @@ body {
   align-items: center;
   flex-shrink: 1;
   height: 50%;
-  width: 45%;
+  width: 25%;
   padding-left: 1%;
   padding-right: 1%;
 }
@@ -249,7 +252,7 @@ body {
   align-items: center;
   flex-shrink: 1;
   height: 50%;
-  width: 60%;
+  width: 70%;
 }
 
 .down-nav ul {
